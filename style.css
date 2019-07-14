@@ -1,13 +1,9 @@
 .w3-display-middle{position:absolute;top:55%;left:50%;transform:translate(-50%,-45%);-ms-transform:translate(-50%, -45%)}
 
 .w3-text-babyblue,.w3-hover-text-babyblue:hover{color:#A3BCF9!important}
-.w3-text-tuscan,.w3-hover-text-tuscan:hover{color:#D6A2AD!important}
-.w3-text-raspberry,.w3-hover-text-raspberry:hover{color:#845A6D!important}
-.w3-text-sgrey,.w3-hover-text-sgrey:hover{color:#3A405A!important}
 .w3-text-slateg,.w3-hover-text-slateg:hover{color:#576490!important}
-.w3-text-french,.w3-hover-text-french:hover{color:#F5F0F0!important}
 .w3-text-cocoapink,.w3-hover-text-cocoapink:hover{color:#C3949E!important}
-.w3-text-floral,.w3-hover-text-cocoapink:hover{color:#FCFAFA!important}
+.w3-text-floral,.w3-hover-text-floral:hover{color:#FCFAFA!important}
 
 p{color:#576490!important}
 
@@ -16,10 +12,46 @@ p{color:#576490!important}
 
 .w3-floral,.w3-hover-floral:hover{color:#fff!important;background-color:#FCFAFA!important}
 
+/*
 .backgroundGradient {
     background: linear-gradient(to bottom, white, FloralWhite);
 }
+*/
 
+.background-mauve {
+    background-color: #F4E4E6;
+}
+
+
+/* CUSTOM STUFF */
+
+.fullscreen {
+    height: 100%;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.superbig {
+    font-size: 4em;
+}
+
+.text {
+    font-weight: lighter;
+    color:#576490!important
+}
+
+.float-image {
+    width: 95%;
+    height: 95%;
+}
+
+.center-half {
+    width: 50%;
+    transform: translate(50%, 0%);
+}
 
 /* W3.CSS 4.13 June 2019 by Jan Egil and Borge Refsnes */
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
@@ -49,7 +81,7 @@ legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}t
 /* End extract */
 html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
 h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}.w3-serif{font-family:serif}
-h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0}.w3-wide{letter-spacing:4px}
+h1,h2,h3,h4,h5,h6,p{font-family:"Literata",Arial,sans-serif;font-weight:400;margin:10px 0}.w3-wide{letter-spacing:4px}
 hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-image{max-width:100%;height:auto}img{vertical-align:middle}a{color:inherit}
 .w3-table,.w3-table-all{border-collapse:collapse;border-spacing:0;width:100%;display:table}.w3-table-all{border:1px solid #ccc}
